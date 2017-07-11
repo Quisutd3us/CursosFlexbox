@@ -1,0 +1,123 @@
+
+ ul{
+     list-style: none;
+     padding: 0; margin: 0;
+ }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (min-width: 575px) {
+    .menuSimple .miMenu ul{
+        // border: solid 2px lime;
+    }
+
+    .menuSimple .miMenu ul li{
+        // border: solid 2px red;
+    }
+
+    .menuSimple .miMenu ul li a{
+        // border: solid 2px blue;
+    }
+}
+//Estilos para menuSimple
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 767px) {
+    .menuSimple .miMenu ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menuSimple .miMenu ul li{
+        flex: auto;
+    }
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 991px) {
+    .menuSimple .miMenu ul{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .menuSimple .miMenu ul li{
+        flex: none;
+        margin-left: 1rem;
+    }
+
+    .menuSimple .miMenu ul li:last-child{
+        // border: solid 1px lime;
+        margin-right: 1rem;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 1199px) {}
+
+// --------------------------------------------------
+//Estilos para menuSimpleAvanzado
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .menuSimpleAvanzado .miMenu ul{
+        // border: solid 2px lime;
+    }
+
+    .menuSimpleAvanzado .miMenu ul li{
+        // border: solid 2px red;
+    }
+
+    .menuSimpleAvanzado .miMenu ul li div{
+        // border: solid 2px blue;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .menuSimpleAvanzado .miMenu ul li div a{
+        font-size: 2rem;
+    }
+    
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .menuSimpleAvanzado .miMenu ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuSimpleAvanzado .miMenu ul li div{
+        margin-left: 1rem;
+        text-align: left;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .menuSimpleAvanzado .miMenu ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .menuSimpleAvanzado .miMenu ul li{
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuSimpleAvanzado .miMenu ul li div{
+        text-align: center;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+ }
+
