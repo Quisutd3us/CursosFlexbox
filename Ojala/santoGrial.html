@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Santo Grial | Flexbox</title>
+
+    <!--FontAwesome-->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+
+    <!--Mis estilos-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div class="encabezado jumbotron">
+        <div class="container-fluid d-flex flex-column justify-content-center align-items-center flex-md-row justify-content-between">
+            <h1 class="text-uppercase text-center ">Santo grial Flexbox</h1>
+            <nav class="nav justify-content-end menuAlineacion ">
+                <h4 class="h4 hidden-md-down">Selecciona un Diseño</h4>
+                <a href="#"><i id="menuAlineacion_left" class="nav-link fa fa-align-left" aria-hidden="true"></i></a>
+                <a href="#"><i id="menuAlineacion_center" class="nav-link fa fa-align-justify" aria-hidden="true"></i></a>
+                <a href="#"><i id="menuAlineacion_right" class="nav-link fa fa-align-right" aria-hidden="true"></i></a>
+                <a href="#"><i  id="menuAlineacion_hide" class="nav-link fa fa-arrow-circle-right" aria-hidden="true"></i></a>  
+            </nav>
+            
+        </div>
+
+    </div>
+    <div class="container menuPrincipal mb-5">
+        <div class="row">
+            <div class="col-12">
+
+                <nav class="nav nav-tabs ">
+                    <a href="#" class="nav-link text-warning text-capitalize active">item1</a>
+                    <a href="#" class="nav-link text-warning text-capitalize">item2</a>
+                    <a href="#" class="nav-link text-warning text-capitalize">item3</a>
+                    <a href="#" class="nav-link text-warning text-capitalize">item4</a>
+                    <a href="#" class="nav-link text-warning text-capitalize">item5</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- finaliza menuPrincipal -->
+
+    <div class="container ContenidoPrincipal">
+        <div class="row">
+            <div class="col-12 col-md-9">
+                <h1 class="h2">Lorem ipsum dolor sit.</h1>
+                <p class="lead text-center text-md-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur sequi, molestias et ut molestiae dolore
+                    explicabo aliquam perspiciatis perferendis incidunt repellat enim ipsum alias ea soluta expedita. Cupiditate
+                    laudantium voluptatum quos, repellat asperiores error.</p>
+                <p class="text-center text-md-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quis necessitatibus, aut quae eveniet odio
+                    id vero dolorem cum incidunt architecto natus fugit, porro optio asperiores sint quam. Sint, quisquam
+                    tempore delectus veritatis unde provident nesciunt debitis beatae molestias voluptatibus possimus quas
+                    libero officiis dolore modi sapiente numquam rerum accusantium quasi. Itaque rerum delectus dolorem optio,
+                    animi asperiores sit fugit repudiandae sed aperiam voluptas maiores molestiae provident quam saepe alias.
+                    Reprehenderit vero, quod explicabo veritatis similique dolorem rem possimus numquam, totam ipsum corrupti
+                    eius natus at adipisci libero vel hic assumenda commodi saepe maxime ducimus magnam impedit necessitatibus
+                    esse ullam? Nam excepturi hic atque eligendi saepe aut. Iure eius dolorem laboriosam nostrum repellat
+                    maxime, odit quidem harum cum, tenetur obcaecati. Obcaecati, minus nisi.</p>
+            </div>
+            <!-- finaliza Article -->
+            <div id="" class="miAside col-12 col-md-3 bg-faded ">
+                <h1 class="h4 text-center mt-5">Links del aside</h1>
+                <nav class="nav flex-column justify-content-center align-items-center">
+                    <a class="nav-link text-danger text-uppercase" href="#">link1</a>
+                    <a class="nav-link text-danger text-uppercase" href="#">link2</a>
+                    <a class="nav-link text-danger text-uppercase" href="#">link3</a>
+                </nav>
+            </div>
+            <!-- finaliza section -->
+        </div>
+    </div>
+    <!-- finaliza ContenidoPrincipal -->
+
+    <footer class="container-fluid bg-faded mt-5">
+        <div class="row">
+            <div class="col-12 my-3 font-italic text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, fugiat, ipsa facilis odit vitae at. Maxime
+                    impedit aliquam nostrum, necessitatibus vero, incidunt deserunt.</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-3"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-around text-uppercase">
+                <h1 class="h5 font-weight-bold">lorem2</h1>
+                <h1 class="h5 font-weight-bold">lorem2</h1>
+                <h1 class="h5 font-weight-bold">lorem2</h1>
+                <h1 class="h5 font-weight-bold">lorem2</h1>
+            </div>
+            <div class="col-12 col-md-3"></div>
+        </div>
+        <div class="row bg-inverse text-white mt-3 py-3">
+            <div class="col-12 col-md-2"></div>
+            <div class="col-12 col-md-8">
+                <h1 class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint recusandae cupiditate minus, quibusdam consequatur
+                    delectus dignissimos laboriosam quidem ullam velit id, esse doloremque.</h1>
+            </div>
+            <div class="col-12 col-md-2"></div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+        <!-- mis scripts -->
+
+        <script src="js/alineaciones.js"></script>
+</body>
+
+</html>

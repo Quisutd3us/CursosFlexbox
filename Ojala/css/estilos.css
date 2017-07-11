@@ -85,5 +85,83 @@ ul {
 
   .menuSimpleAvanzado .miMenu ul li div {
     text-align: center; } }
+.myBody {
+  background-color: #3c3c3c; }
+
+.fondoTarjetas {
+  background-color: white;
+  opacity: 0.8; }
+
+.myBody .tarjetas .row div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 15px #3c3c3c;
+  border-radius: 2rem;
+  padding: 1rem;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused; }
+
+.myBody .tarjetas .row div:hover {
+  z-index: 2;
+  -webkit-animation-name: tarjetasMove;
+          animation-name: tarjetasMove;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-play-state: running;
+          animation-play-state: running; }
+
+@-webkit-keyframes tarjetasMove {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    border-width: 2px;
+    -webkit-box-shadow: 1px 1px 3px #888888;
+            box-shadow: 1px 1px 3px #888888; }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    border-width: 5px;
+    -webkit-box-shadow: 5px 5px 2px #888888;
+            box-shadow: 5px 5px 2px #888888; }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border-width: 2px;
+    -webkit-box-shadow: 10px 10px 5px #888888;
+            box-shadow: 10px 10px 5px #888888; } }
+
+@keyframes tarjetasMove {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    border-width: 2px;
+    -webkit-box-shadow: 1px 1px 3px #888888;
+            box-shadow: 1px 1px 3px #888888; }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    border-width: 5px;
+    -webkit-box-shadow: 5px 5px 2px #888888;
+            box-shadow: 5px 5px 2px #888888; }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border-width: 2px;
+    -webkit-box-shadow: 10px 10px 5px #888888;
+            box-shadow: 10px 10px 5px #888888; } }
 
 /*# sourceMappingURL=estilos.css.map */
