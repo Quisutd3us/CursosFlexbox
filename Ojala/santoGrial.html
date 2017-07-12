@@ -16,6 +16,49 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        .transitions {
+
+            animation: entrando 1s ease-in-out;
+        }
+
+        @keyframes entrando {
+            0% {
+                left: 100%;
+            }
+            100% {
+                left: 0%;
+            }
+        }
+
+        .transitions1 {
+
+            animation: entrando1 1s ease-in-out;
+        }
+
+        @keyframes entrando1 {
+            0% {
+                left: 100%;
+            }
+            100% {
+                left: 0%;
+            }
+        }
+
+        .transitions2 {
+
+            animation: entrando2 1s ease-in-out;
+        }
+
+        @keyframes entrando2 {
+            0% {
+                top: 100%;
+            }
+            100% {
+                top: 0%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -28,9 +71,9 @@
                 <a href="#"><i id="menuAlineacion_left" class="nav-link fa fa-align-left" aria-hidden="true"></i></a>
                 <a href="#"><i id="menuAlineacion_center" class="nav-link fa fa-align-justify" aria-hidden="true"></i></a>
                 <a href="#"><i id="menuAlineacion_right" class="nav-link fa fa-align-right" aria-hidden="true"></i></a>
-                <a href="#"><i  id="menuAlineacion_hide" class="nav-link fa fa-arrow-circle-right" aria-hidden="true"></i></a>  
+                <a href="#"><i  id="menuAlineacion_hide" class="nav-link fa fa-arrow-circle-right" aria-hidden="true"></i></a>
             </nav>
-            
+
         </div>
 
     </div>
@@ -68,7 +111,7 @@
                     maxime, odit quidem harum cum, tenetur obcaecati. Obcaecati, minus nisi.</p>
             </div>
             <!-- finaliza Article -->
-            <div id="" class="miAside col-12 col-md-3 bg-faded ">
+            <div id="" class="miAside col-12 col-md-3 bg-faded flex ">
                 <h1 class="h4 text-center mt-5">Links del aside</h1>
                 <nav class="nav flex-column justify-content-center align-items-center">
                     <a class="nav-link text-danger text-uppercase" href="#">link1</a>
@@ -117,9 +160,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
 
-        <!-- mis scripts -->
+    <!-- mis scripts -->
 
-        <script src="js/alineaciones.js"></script>
+    <script src="js/alineaciones.js"></script>
 </body>
 
 </html>
